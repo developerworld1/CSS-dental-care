@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+/* BELOW 👇 css FOR NAVBAR STARTING */
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-nav{
+     display: flex;
+}
+.left-nav button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight:500;
+    border: 1px solid black;
+    background-color: white;
+}
+.left-nav i{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.center-nav{
+    display: flex;
+    gap: 4px;
+}
+.center-nav h3{
+    font-size: 24px;
+    letter-spacing:-1px;
+    font-weight: 500;
+}
+
+.center-nav i{
+    border: 1px solid ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: orangered;
+    color: white;
+}
+.right-nav{
+    display: flex;
+}
+.right-nav button{
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#signup-btn{
+    background-color: orangered;
+    color: white;
+    border: 1px solid;
+}
+
+/* BELOW 👇 css FOR sECTION STARTING */
+section{
+    width: 100%;
+    height: 100%;
+}
+section h1{
+    display: flex;
+    width: 100%;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+section img{
+     height: 300px;
+     width: 300px;
+     object-fit: cover;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%) ;
+     border-radius: 30px;
+}
+
+#img-1{
+    transform: translate(-50%, -50%) rotate(-40deg) ;
+}
+#img-2{
+    transform: translate(-50%, -50%) rotate(-30deg) ;
+}
+#img-3{
+    transform: translate(-50%, -50%) rotate(-20deg) ;
+}
+#img-4{
+    transform: translate(-50%, -50%) rotate(-10deg) ;
+}
+
+/* container CSS starting from here 👇  */
+
+.container{
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.left-container{
+    margin: 30px;
+}
+#dot{
+    color: orangered;
+}
+#tagline{
+    font-size: 14px;
+    font-weight: 500;
+}
+.right-container{
+    margin-right: 30px;
+}
+.right-container i{
+    font-size: 18px;
+    margin: 4px;
+}
+.right-container h3{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
